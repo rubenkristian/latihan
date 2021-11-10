@@ -1,0 +1,18 @@
+{
+  "name": "test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "oopConcept": "tsc Kristian_Ruben_Sianturi_OOPConcept.ts --outfile dist/OOPConcept.js && node dist/OOPConcept.js",
+    "readingBook": "tsc Kristian_Ruben_Sianturi_ReadingBooks.ts --outfile dist/ReadingBooks.js && node dist/ReadingBooks.js",
+    "technicalTest": "tsc Kristian_Ruben_Sianturi_TechnicalTest.ts --outfile dist/technicalTest.js && node dist/technicalTest.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "tslint": "^5.12.1",
+    "typescript": "^3.3.3"
+  }
+}
